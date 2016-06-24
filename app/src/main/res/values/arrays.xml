@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temprature_array">
+        <item>Celcsius</item>
+        <item>Farhaniet</item>
+    </string-array>
+</resources>
