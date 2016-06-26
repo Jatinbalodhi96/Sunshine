@@ -4,7 +4,7 @@ Retreving weather data from openweathermap.com in JSON format.
 
 It uses different application features like 
 <li>
-
+<ul></ul>
 <ul>
 Change location
 </ul>
