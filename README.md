@@ -5,17 +5,17 @@ Retreving weather data from openweathermap.com in JSON format.
 It uses different application features like 
 <li>
 
-<ol>
+<ul>
 Change location
-</ol>
-<ol>
+</ul>
+<ul>
 Change Temprature metric unit
-</ol>
-<ol>
+</ul>
+<ul>
 share content setting using shared prefrence
-</ol>
-<ol>
+</ul>
+<ul>
 setting using shared prefrence
-</ol>
+</ul>
 
 </li>
