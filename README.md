@@ -4,6 +4,7 @@ Retreving weather data from openweathermap.com in JSON format.
 
 It uses different application features like 
 <li>
+
 <ol>
 Change location
 </ol>
@@ -16,4 +17,5 @@ share content setting using shared prefrence
 <ol>
 setting using shared prefrence
 </ol>
+
 </li>
