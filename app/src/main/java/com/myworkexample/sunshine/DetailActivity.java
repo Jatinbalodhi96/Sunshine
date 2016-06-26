@@ -1,10 +1,10 @@
 package com.myworkexample.sunshine;
 
-import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.MenuItemCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.ShareActionProvider;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,7 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class DetailActivity extends ActionBarActivity {
+public class DetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,7 +97,7 @@ public class DetailActivity extends ActionBarActivity {
 
             // Attach an intent to this ShareActionProvider.  You can update this at any time,
             // like when the user selects a new piece of data they might like to share.
-            if (mShareActionProvider != null) {
+            if (mShareActionProvider != null ) {
                 mShareActionProvider.setShareIntent(createShareForecastIntent());
             } else {
                 Log.d(LOG_TAG, "Share Action Provider is null?");
