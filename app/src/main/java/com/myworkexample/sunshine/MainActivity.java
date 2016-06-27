@@ -55,8 +55,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
 
         String location = sharedPrefs.getString(
-          getString(R.string.pref_location_key),
-                getString(R.string.pref_location_default)
+          getString(R.string.pref_location_key),getString(R.string.pref_location_default)
         );
 
         Uri geoLocation = Uri.parse("geo:0,0?").buildUpon()
@@ -71,5 +70,4 @@ public class MainActivity extends AppCompatActivity {
             Log.d(LOG_TAG, "Couldn't call " + location + ", no receiving apps installed!");
         }
     }
-
 }
